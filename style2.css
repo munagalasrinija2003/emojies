@@ -1,0 +1,141 @@
+body{
+  background-color: pink;
+}
+.ear{
+    display: flex;
+    height:25px;
+    width:25px;
+    justify-content: space-evenly;
+    position:absolute;
+   
+    border-radius:"auto";
+  }      
+  #ear1{
+    height:100px;
+    width:100px;
+   
+    background-color:coral;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 3px solid black;
+    position:absolute;
+   margin-left: 670px;
+   margin-top:-330px;
+   z-index: -1;
+    
+  }
+  #ear2{
+    height:100px;
+    width:100px;
+   border: 3px solid black;
+    background-color:coral;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+   
+    position:absolute;
+   margin-left: 530px;
+   margin-top:-330px;
+   z-index: -1;
+  }
+  .pig{
+    height:300px;
+    width:300px;
+    background-color:coral;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px 3px black;
+    border-radius: auto;
+    border-radius:50%;
+    margin-left: 500px;
+    margin-top:200px ;
+    position: relative;
+    
+}
+.eyes{
+  display:"flex";
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  position:"absolute";
+  margin-left:70px;
+  margin-top:20px;
+  }
+  #leye{
+  height:50px;
+  width:50px;
+  background-color: white;
+  border-radius:50%;
+  position:absolute;
+  margin-top:70px;
+  }
+  #reye{
+      height:50px;
+      width:50px;
+      background-color:white;
+      border-radius:50%;
+      position:absolute;
+      margin-top:70px;
+      margin-left:120px;
+      }
+      
+      #left{
+          height:30px;
+          width:30px;
+         border-radius:50%;
+         background-color: black;
+         position: absolute;
+         margin-left: 79px;
+         margin-top: 28px;
+        
+      
+      }
+      #right{
+          height:30px;
+          width:30px;
+         border-radius:50%;
+         background-color: black;
+         position: absolute;
+         margin-left: 200px;
+         margin-top:28px;
+      }
+      .mouth{
+          height:50px;
+          width:100px;
+          border-top-left-radius: 40%;
+          border-top-right-radius: 40%;
+          border-bottom-left-radius: 40%;
+          border-bottom-right-radius: 40%;
+          background-color:red;
+          position:absolute;
+          box-shadow: 3px 3px 3px 3px solid black;
+          border:4px solid black;
+          display:"flex";
+          margin-left:100px;
+          margin-top:130px;
+          
+          }
+          #hole1{
+          height:30px;
+          width:30px;
+          border-top-left-radius:50% ;
+          border-top-right-radius:50%;
+          border-bottom-left-radius:50% ;
+          border-bottom-right-radius:50%;
+          background-color:black;
+          position:absolute;
+          margin-top: 10px;
+          margin-left: 10px;
+          }
+          #hole2{
+          height:30px;
+          width:30px;
+          border-top-left-radius:50% ;
+          border-top-right-radius:50%;
+          border-bottom-left-radius:50% ;
+          border-bottom-right-radius:50%;
+          background-color: black;
+          margin-left:60px;
+          margin-top: 10px;
+          position:absolute
+          
+          }
+  
